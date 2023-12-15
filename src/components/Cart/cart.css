@@ -1,0 +1,31 @@
+.card__container {
+  width: 100%;
+  max-width: 360px;
+  background-color: #fff;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 100px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translate(110%, 0);
+  transition: all 1s ease;
+}
+
+.card__items {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.card__resume {
+  font-weight: 500;
+  font-size: 1.8rem;
+  padding: 35px 0 15px;
+  border-top: 1px solid #ddd;
+}
+
+.cart__active {
+  transform: translate(0, 0);
+}

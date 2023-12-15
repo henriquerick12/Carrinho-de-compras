@@ -1,0 +1,43 @@
+.item__container {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.item__info {
+  padding: 0px 35px 0px 10px;
+}
+
+.item__img {
+  width: 70px;
+}
+
+.item__title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 8px;
+}
+
+.item__price {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.item__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgba(255, 0, 0, 0.781);
+  border: none;
+  font-size: 1.4rem;
+  background: none;
+  cursor: pointer;
+}
+
+.item__container:last-child {
+  border-bottom: none;
+}
